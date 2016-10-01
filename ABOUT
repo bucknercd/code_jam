@@ -1,0 +1,45 @@
+The ML_SpotTheImage python script is an interactive program that takes some user inputs
+
+concerning the subjects to discriminate between as images and other sampling parameters that
+
+form the boundaries for the machine learning algorithm. The images used in this process are
+
+pulled dynamically from the internet through the Bing api. During the execution of the program
+
+you will see a graph popup. The graph is an indication of how the program has taken your input
+
+boundaries, applied them to the images it just got off the internet and the output is put on this
+
+graph. Each dot represents an image and the colors tell you which image subject they identify.
+
+What we want to try and do is manipulate the boundary parameters we input while using the same
+
+image subjects and see if we can get the graphical points to segregate as much as possible...
+
+meaning that red dots will mostly be in one part of the graph and yellow dots mostly grouped in
+
+another part of the graph. Once this is accomplished, you can be assured that when the program
+
+then does a test of unknown images, it will do a better job of knowing which is which.
+
+I recommend you have the folder that contains the images open before you start running the
+
+program so that you can see them being pulled into it. I would also suggest that as the program
+
+runs and stops at the popup of the graph plot, you examine the images and see if any of them
+
+might be a recognition problem. Such as too dark or there may be images that are not of the
+
+subject types you asked for (we depend on Bing to get the right images pulled for us( which
+
+means they have alredy done some image learning themselves!!!)
+
+We invite you to look into the code and see what other boundary parameters might be added to
+
+the interactive input. Can you think of additional visual feed back that would be helpful in
+
+understanding why the machine sometimes fail to identify the proper image. Try adding some of
+
+your own images into the image folder before running the program.... be careful though to add
+
+them with the same format labels and image type as those pulled in from Bing.
