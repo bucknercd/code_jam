@@ -10,3 +10,7 @@ In order to get this running:
 2.) install requirements for python script
 
     pip install -r requirements.txt
+    
+3.) create a directory named "images" in the same directory that
+    .py script is in . This directory is where the images will be 
+    downloaded to
